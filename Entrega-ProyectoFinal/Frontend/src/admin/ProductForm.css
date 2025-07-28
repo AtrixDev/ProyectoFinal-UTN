@@ -1,0 +1,18 @@
+/* src/admin/ProductForm.css */
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.product-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.product-form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
