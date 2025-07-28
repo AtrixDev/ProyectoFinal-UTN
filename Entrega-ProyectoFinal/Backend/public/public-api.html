@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Documentación Pública API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1rem;
+      overflow-x: auto;
+    }
+    code {
+      color: #d63384;
+    }
+  </style>
+</head>
+<body>
+  <h1>Documentación Pública - API de Productos</h1>
+  <p>Todos los endpoints disponibles son de solo lectura (GET).</p>
+
+  <h2>GET /api/public</h2>
+  <p>Devuelve todos los productos.</p>
+  <h4>Ejemplo de respuesta:</h4>
+  <pre><code>[
+  {
+    "_id": "abc123",
+    "name": "Producto 1",
+    "description": "Descripción del producto",
+    "price": 123.45,
+    "image": "https://ejemplo.com/imagen.jpg"
+  }
+]</code></pre>
+
+  <h2>GET /api/public/:id</h2>
+  <p>Devuelve un producto específico por su ID.</p>
+  <h4>Ejemplo de respuesta:</h4>
+  <pre><code>{
+  "_id": "abc123",
+  "name": "Producto 1",
+  "description": "Descripción del producto",
+  "price": 123.45,
+  "image": "https://ejemplo.com/imagen.jpg"
+}</code></pre>
+
+</body>
+</html>

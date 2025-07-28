@@ -1,0 +1,11 @@
+/* src/admin/AdminPanel.css */
+.admin-panel {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.admin-panel h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
