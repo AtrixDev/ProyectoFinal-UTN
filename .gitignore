@@ -1,0 +1,8 @@
+# Variables de entorno (contraseñas y conexiones): nunca se suben
+.env
+.env.*
+!.env.example
+
+# Dependencias y builds
+node_modules/
+dist/
